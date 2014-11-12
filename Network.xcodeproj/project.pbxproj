@@ -14,6 +14,7 @@
 		EDC040B419FE7453005AC5AE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC040B319FE7453005AC5AE /* Images.xcassets */; };
 		EDC040B719FE7453005AC5AE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDC040B519FE7453005AC5AE /* LaunchScreen.xib */; };
 		EDC040C319FE7453005AC5AE /* NetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC040C219FE7453005AC5AE /* NetworkTests.swift */; };
+		EDD1419C19FFE7480003A8F5 /* Current.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD1419B19FFE7480003A8F5 /* Current.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 		EDC040BC19FE7453005AC5AE /* NetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDC040C119FE7453005AC5AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDC040C219FE7453005AC5AE /* NetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTests.swift; sourceTree = "<group>"; };
+		EDC040CC19FE74F2005AC5AE /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		EDD1419B19FFE7480003A8F5 /* Current.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Current.swift; path = ../Current.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,7 @@
 		EDC040A619FE7453005AC5AE /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				EDD1419B19FFE7480003A8F5 /* Current.swift */,
 				EDC040A919FE7453005AC5AE /* AppDelegate.swift */,
 				EDC040AE19FE7453005AC5AE /* ViewController.swift */,
 				EDC040B019FE7453005AC5AE /* Main.storyboard */,
@@ -86,6 +90,7 @@
 				EDC040B519FE7453005AC5AE /* LaunchScreen.xib */,
 				EDC040AB19FE7453005AC5AE /* Network.xcdatamodeld */,
 				EDC040A719FE7453005AC5AE /* Supporting Files */,
+				EDC040CC19FE74F2005AC5AE /* MyPlayground.playground */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -218,6 +223,7 @@
 				EDC040AF19FE7453005AC5AE /* ViewController.swift in Sources */,
 				EDC040AD19FE7453005AC5AE /* Network.xcdatamodeld in Sources */,
 				EDC040AA19FE7453005AC5AE /* AppDelegate.swift in Sources */,
+				EDD1419C19FFE7480003A8F5 /* Current.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +415,7 @@
 				EDC040C819FE7453005AC5AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDC040C919FE7453005AC5AE /* Build configuration list for PBXNativeTarget "NetworkTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +424,7 @@
 				EDC040CB19FE7453005AC5AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
